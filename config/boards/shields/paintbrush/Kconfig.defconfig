@@ -4,6 +4,6 @@ config ZMK_KEYBOARD_NAME
     default "Paintbrush"
 
 config SHIELD_PAINTBRUSH
-    def_bool $(shields_list_contains,paintbrush)
+    def_bool $(shields_list_contains,Paintbrush)
 
 endif
