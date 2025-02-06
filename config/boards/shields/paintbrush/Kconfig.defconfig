@@ -1,0 +1,9 @@
+if SHIELD_PAINTBRUSH
+
+config ZMK_KEYBOARD_NAME
+    default "Paintbrush"
+
+config SHIELD_PAINTBRUSH
+    def_bool $(shields_list_contains,paintbrush)
+
+endif
